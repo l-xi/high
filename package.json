@@ -5,8 +5,8 @@
   "author": "lx <3333333333@qq.com>",
   "private": false,
   "scripts": {
-    "docs:dev": "cross-env NODE_OPTIONS=--openssl-legacy-provider vuepress dev docs",
-    "docs:build": "cross-env NODE_OPTIONS=--openssl-legacy-provider vuepress build docs"
+    "docs:dev": "export NODE_OPTIONS=--openssl-legacy-provider vuepress dev docs",
+    "docs:build": "export NODE_OPTIONS=--openssl-legacy-provider vuepress build docs"
   },
   "dependencies": {
     "moment": "^2.24.0",
